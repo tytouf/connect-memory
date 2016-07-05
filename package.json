@@ -1,0 +1,28 @@
+{
+  "name": "connect-memory",
+  "description": "Memory session store for Connect",
+  "version": "0.1.0",
+  "author": "Christophe Augier <christophe.augier@gmail.com>",
+  "contributors": [ ],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tytouf/connect-memory.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^1.6.0",
+    "express-session": "^1.9.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/tytouf/connect-memory/issues"
+  },
+  "scripts": {
+    "lint": "eslint index.js test lib bench"
+  }
+}
